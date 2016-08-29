@@ -1,13 +1,14 @@
 # Flask on Heroku
 
-This project is intended to help you tie together some important concepts and
+This project is the basic web app introducing important concepts and
 technologies from the 12-day course, including Git, Flask, JSON, Pandas,
-Requests, Heroku, and Bokeh for visualization.
-
+Requests, Heroku, and Bokeh for visualization. It is made by Dimitris Iakovakis as an introductory project for the data incubator. 
+It uses the quandl library to grab some stock's market data from Quandl, stores it to a pandas DataFrame. The concept is to plot the last month's stock market value of the company name.
+The code in this repository allows to run the app locally. 
 The repository contains a basic template for a Flask configuration that will
 work on Heroku.
-
-A [finished example](https://lemurian.herokuapp.com) that demonstrates some basic functionality.
+The link of the app: 
+Also some steps  to understand the basic functionality:
 
 ## Step 1: Setup and deploy
 - Git clone the existing template repository.
